@@ -18,7 +18,7 @@ function LoadTheme() {
 		else {
 			const Link = document.createElement("link");
 			Link.rel = "stylesheet";
-			Link.href = "/assets/css/" + localStorage.theme + ".css"
+			Link.href = "/assets/css/" + localStorage.theme + ".css";
 			Link.id = "themeCSS";
 
 			document.head.appendChild(Link);

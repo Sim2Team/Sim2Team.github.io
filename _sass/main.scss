@@ -115,3 +115,9 @@ a:hover {
 .rule-list > li {
 	margin: 1rem 0;
 }
+
+/* Images should not go over the screen size. */
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
